@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: rgb(68, 68, 65);
+    display: flex;
+    color: white;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
